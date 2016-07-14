@@ -1,105 +1,7 @@
 <!doctype html>
 <meta charset=utf-8>
 <title>Nativity Cathedral, Riga</title>
-<style>
-html, body { font: 18px/1.4 "avenir"; }
-html, body, h1, h2, h3 { margin: 0; }
-body { background-color: #000; }
-body { background: url(bg.png); }
-
-.icon { font-size: 120%; font-weight: 600; line-height: 1; }
-
-video { position: fixed; top: 50%; left: 50%; }
-video { min-width: 100%; min-height: 100%; }
-video { width: auto; height: auto; }
-video { z-index: -2; }
-video { transform: translateX(-50%) translateY(-50%); }
-.fade { position: fixed; top: 0; left: 0; bottom: 0; right: 0; }
-.fade { background-color: rgba(0, 0, 0, 0.2); }
-.fade { z-index: -1; }
-
-* { font-size: 1rem; font-weight: normal; }
-b { font-weight: 500; }
-h1 { font-weight: 700; }
-a { color: currentcolor; }
-
-header h1 {
-  background-color: rgba(255, 0, 0, 0.7);
-  text-align: center;
-  font-weight: 800;
-  font-size: 2rem;
-  letter-spacing: -.05em;
-  line-height: 1;
-  padding: .07em .5rem 0;
-  display: inline-block;
-}
-
-header h2 {
-  font-size: .8rem;
-  font-weight: 500;
-  text-align: center;
-}
-
-body { color: ivory; }
-
-article {
-  display: flex;
-  flex-direction: column;
-}
-
-article > * { padding: .5rem 1rem; }
-
-header {
-  width: 13em;
-  margin: 0 auto;
-  text-align: center;
-}
-
-dt { color: red; font-weight: 500; }
-dd { margin-bottom: 1rem; }
-dd { margin-left: 0; }
-
-article h2 { margin: .25rem 0; }
-
-nav {
-  display: flex;
-  flex-direction: column;
-  padding: 1 0 .5rem 0;
-}
-
-nav a {
-  text-decoration: none;
-  line-height: 2rem;
-  display: flex;
-  flex-shrink: 0;
-}
-
-nav a b {
-  font-weight: 600;
-  text-transform: lowercase;
-  font-variant: small-caps;
-}
-
-nav a:hover, nav a:hover span {
-  text-decoration: underline;
-}
-
-nav a span { flex-grow: 1; text-align: right; }
-
-abbr {
-  text-transform: lowercase;
-  font-variant: small-caps;
-  font-size: 110%;
-}
-
-p { margin: .5rem 0; }
-main p { text-align: center; }
-
-.teaser {
-  background-color: rgba(255, 0, 0, 0.4);
-}
-
-</style>
+<link rel=stylesheet href=index.css>
 <body>
 
 <video autoplay loop>
@@ -114,10 +16,12 @@ main p { text-align: center; }
   </header>
 
   <nav>
-    <a href="#"><b>Company</b> <span>history and other info</a>
-    <a href="#"><b>Production</b> <span>capacities and certifications</a>
-    <a href="#"><b>Gallery</b> <span>pictures of our facilities</a>
-    <a href="#"><b>Contact</b> <span>phone &amp; email </a>
+    <ul>
+      <li><a href="#"><b>Company</b> <span>history and other info</a>
+      <li><a href="#"><b>Production</b> <span>capacities and certifications</a>
+      <li><a href="#"><b>Gallery</b> <span>pictures of our facilities</a>
+      <li><a href="#"><b>Contact</b> <span>phone &amp; email </a>
+    </ul>
   </nav>
 
   <section class=teaser>

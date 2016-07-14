@@ -1,0 +1,113 @@
+html, body { font: 18px/1.4 "avenir"; }
+
+html, body, ul, li, dl, h1, h2, h3 {
+  margin: 0; padding: 0;
+}
+
+body { background-color: #000; }
+body { background: url(bg.png); }
+
+article { max-width: 30rem; margin: 0 auto; }
+
+.icon { font-size: 120%; font-weight: 600; line-height: 1; }
+
+video { position: fixed; top: 50%; left: 50%; }
+video { min-width: 100%; min-height: 100%; }
+video { width: auto; height: auto; }
+video { z-index: -2; }
+video { transform: translateX(-50%) translateY(-50%); }
+.fade { position: fixed; top: 0; left: 0; bottom: 0; right: 0; }
+.fade { background-color: rgba(0, 0, 0, 0.4); }
+.fade { z-index: -1; }
+
+* { font-size: 1rem; font-weight: normal; }
+b { font-weight: 500; }
+h1 { font-weight: 700; }
+a { color: currentcolor; }
+body { color: ivory; }
+
+article {
+  display: flex;
+  flex-direction: column;
+}
+
+article > * {
+  padding: .5rem 1rem;
+  margin: .25rem 0;
+}
+
+article > header {
+  width: 13em;
+  margin: 1rem auto 0;
+  text-align: center;
+  padding-bottom: 0;
+}
+
+header h1 {
+  background-color: rgba(255, 0, 0, 0.7);
+  text-align: center;
+  font-weight: 800;
+  font-size: 2rem;
+  letter-spacing: -.05em;
+  line-height: 1;
+  padding: .07em .5rem 0;
+  display: inline-block;
+}
+
+header h2 {
+  font-size: .8rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+dt { color: red; font-weight: 500; }
+dd { margin-bottom: 1rem; }
+dd { margin-left: 0; }
+
+article h2 { margin: .25rem 0; }
+
+nav ul { padding-left: 1rem; }
+
+nav {
+  display: flex;
+  flex-direction: column;
+}
+
+nav a {
+  text-decoration: none;
+  line-height: 1.5rem;
+  display: inline-flex;
+  width: 100%;
+  flex-shrink: 0;
+}
+
+nav a b {
+  font-weight: 600;
+  text-transform: lowercase;
+  font-variant: small-caps;
+}
+
+nav a:hover, nav a:hover span {
+  text-decoration: underline;
+}
+
+nav a span { flex-grow: 1; text-align: right; }
+
+abbr {
+  text-transform: lowercase;
+  font-variant: small-caps;
+  font-size: 110%;
+}
+
+p { margin: .5rem 0; }
+main p { text-align: center; }
+
+.teaser {
+  background-color: rgba(255, 0, 0, 0.4);
+}
+
+@media (min-width: 30rem) {
+  .teaser {
+    border-radius: 0.5rem;
+  }
+}
