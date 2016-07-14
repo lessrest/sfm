@@ -112,6 +112,8 @@ main p { text-align: center; }
 }
 
 @media (min-width: 1100px) {
+  html { font-size: 22px; }
+
   article { max-width: none; }
   article section {
     max-width: 27rem;
