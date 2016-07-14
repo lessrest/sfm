@@ -1,0 +1,163 @@
+<!doctype html>
+<meta charset=utf-8>
+<title>Nativity Cathedral, Riga</title>
+<style>
+html, body { font: 18px/1.4 "avenir"; }
+html, body, h1, h2, h3 { margin: 0; }
+body { background-color: #000; }
+body { background: url(bg.png); }
+
+.icon { font-size: 120%; font-weight: 600; line-height: 1; }
+
+video { position: fixed; top: 50%; left: 50%; }
+video { min-width: 100%; min-height: 100%; }
+video { width: auto; height: auto; }
+video { z-index: -2; }
+video { transform: translateX(-50%) translateY(-50%); }
+.fade { position: fixed; top: 0; left: 0; bottom: 0; right: 0; }
+.fade { background-color: rgba(0, 0, 0, 0.2); }
+.fade { z-index: -1; }
+
+* { font-size: 1rem; font-weight: normal; }
+b { font-weight: 500; }
+h1 { font-weight: 700; }
+a { color: currentcolor; }
+
+header h1 {
+  background-color: rgba(255, 0, 0, 0.7);
+  text-align: center;
+  font-weight: 800;
+  font-size: 2rem;
+  letter-spacing: -.05em;
+  line-height: 1;
+  padding: .07em .5rem 0;
+  display: inline-block;
+}
+
+header h2 {
+  font-size: .8rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+body { color: ivory; }
+
+article {
+  display: flex;
+  flex-direction: column;
+}
+
+article > * { padding: .5rem 1rem; }
+
+header {
+  width: 13em;
+  margin: 0 auto;
+  text-align: center;
+}
+
+dt { color: red; font-weight: 500; }
+dd { margin-bottom: 1rem; }
+dd { margin-left: 0; }
+
+article h2 { margin: .25rem 0; }
+
+nav {
+  display: flex;
+  flex-direction: column;
+  padding: 1 0 .5rem 0;
+}
+
+nav a {
+  text-decoration: none;
+  line-height: 2rem;
+  display: flex;
+  flex-shrink: 0;
+}
+
+nav a b {
+  font-weight: 600;
+  text-transform: lowercase;
+  font-variant: small-caps;
+}
+
+nav a:hover, nav a:hover span {
+  text-decoration: underline;
+}
+
+nav a span { flex-grow: 1; text-align: right; }
+
+abbr {
+  text-transform: lowercase;
+  font-variant: small-caps;
+  font-size: 110%;
+}
+
+p { margin: .5rem 0; }
+main p { text-align: center; }
+
+.teaser {
+  background-color: rgba(255, 0, 0, 0.4);
+}
+
+</style>
+<body>
+
+<video autoplay loop>
+  <source src="http://sfm.4free.lv/public/assets/video/SFM_Loop_08.mp4" type="video/mp4">
+</video>
+<div class=fade></div>
+
+<article>
+  <header>
+    <h1>SFM Latvia</h1>
+    <h2>Steel Fabrication Manufacturer</h2>
+  </header>
+
+  <nav>
+    <a href="#"><b>Company</b> <span>history and other info</a>
+    <a href="#"><b>Production</b> <span>capacities and certifications</a>
+    <a href="#"><b>Gallery</b> <span>pictures of our facilities</a>
+    <a href="#"><b>Contact</b> <span>phone &amp; email </a>
+  </nav>
+
+  <section class=teaser>
+
+    <p><b>Subcontractors for welding, shot blasting, painting,
+      assembly, and more.</b>
+
+    <p>Our new premises in the industrial center of Jelgava are modern
+      and well-equipped.
+
+    <p>We work on conveyor systems, mining machinery, vehicle
+    platforms, containers, and other steel structures.
+
+    <p>Mail <a href="mailto:info@sfm.lv">info@sfm.lv</a> or call <a
+    href="tel:+37163082014">+371 630 82 014</a>.
+
+  </section>
+
+  <section>
+    <dl>
+    <dt>17 May 2016
+    <dd>Meet us on SUBCON Show in Birmingham 07-09 June 2016
+    <dt>28 Apr 2016
+    <dd>We care about the environment we are working, so we all came together for a big cleaning on 23 April
+    <dt>11 Apr 2016
+    <dd>Meet us at Hannover Messe Subcontracting fair in Hannover, Germany 25&ndash;29 April 2016
+    <dt>19 Jan 2016
+    <dd>From 2016 we are ISO&nbsp;14001 and OHSAS&nbsp;18001 certified
+    <dt>17 Nov 2015
+    <dd>New promotional video released
+    <dt>11 Nov 2015
+    <dd>SFM @ Elmia Subcontracting show
+    <dt>09 Nov 2015
+    <dd>Meet us at Elmia Subcontracting fair in Jönköping, Sweden 10-13 November
+    <dt>29 Aug 2015
+    <dd>We are now operating in our new factory
+    <dt>20 Aug 2015
+    <dd>SIA „SFM LATVIA” nodod ekspluatācijā jaunas ražošanas iekārtas
+    <dt>18 Jun 2015
+    <dd>SIA „SFM LATVIA” nodod ekspluatācijā jaunas ražošanas iekārtas
+    </dl>
+  </section>
+</body>
