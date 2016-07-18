@@ -7,6 +7,10 @@
 
 <body>
 
+<script>
+  document.body.classList.add("js")
+</script>
+
 <video autoplay loop>
   <source
      src="http://sfm.4free.lv/public/assets/video/SFM_Loop_08.mp4"
@@ -17,7 +21,7 @@
 
 <header>
   <div class=logo>
-    <h1>SFM Latvia</h1>
+    <h1>SFM <span>Latvia</span></h1>
     <h2>Steel Fabrication Manufacturer</h2>
   </div>
 
@@ -44,9 +48,12 @@
   </p>
 </header>
 
-<main>
+<main id=main>
 
 <nav id=menu>
+  <div class=logo>
+    <h1>SFM <span>Latvia</span></h1>
+  </div>
   <ul>
     <li>
       <a href="#about">
@@ -125,3 +132,13 @@
   --!>
   </dl>
 </section>
+
+<script>
+  document.onscroll = function() {
+    if (document.body.scrollTop >= window.main.offsetTop) {
+      document.body.classList.add("scrolled")
+    } else {
+      document.body.classList.remove("scrolled")
+    }
+  }
+</script>
