@@ -191,6 +191,8 @@ nav a {
   display: inline-flex;
   width: 100%;
   flex-shrink: 0;
+  position: relative;
+  top: .05em;
 }
 
 nav a span {
