@@ -65,7 +65,7 @@ header .logo h1 {
   font-size: 3rem;
   display: inline-block;
   background-color: rgba(200, 0, 0, 1);
-  padding: .15em .4em .05em;
+  padding: .125em .4em .05em;
   box-shadow:  0px 0px 30px rgba(0, 0, 0, .2);
 }
 
