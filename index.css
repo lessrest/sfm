@@ -89,16 +89,6 @@ header p:not(.arrow) {
   text-align: center;
 }
 
-header .arrow {
-  font-size: 1.5rem;
-  padding-bottom: 5vh;
-  text-align: center;
-  animation: bounce 2.5s infinite;
-}
-
-header .arrow a {
-  text-decoration: none;
-}
 
 /*
  * Layout
@@ -342,14 +332,25 @@ video { transform: translateX(-50%) translateY(-50%); }
   nav { font-size: 1.25rem; }
 }
 
+header .arrow {
+  font-size: 1.5rem;
+  padding-bottom: 5vh;
+  text-align: center;
+  animation: bounce 5s infinite;
+}
+
+header .arrow a {
+  text-decoration: none;
+}
+
 @keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
     transform: translateY(0);
   }
-  40% {
+  45% {
     transform: translateY(-.5em);
   }
-  60% {
+  55% {
     transform: translateY(-.25em);
   }
 }
