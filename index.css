@@ -62,7 +62,6 @@ header {
 }
 
 header .logo h1 {
-  font-family: avenir;
   font-size: 3rem;
   display: inline-block;
   background-color: rgba(200, 0, 0, 1);
