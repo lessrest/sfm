@@ -64,9 +64,9 @@ header {
 header .logo h1 {
   font-size: 3rem;
   display: inline-block;
-  background-color: rgba(200, 0, 0, 1);
+  background-color: rgba(230, 0, 0, 1);
   padding: .125em .4em .05em;
-  box-shadow:  0px 0px 30px rgba(0, 0, 0, .2);
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, .2);
 }
 
 header p:not(.arrow) {
@@ -93,7 +93,7 @@ header .arrow {
   font-size: 1.5rem;
   padding-bottom: 5vh;
   text-align: center;
-  animation: bounce 2s infinite;
+  animation: bounce 2.5s infinite;
 }
 
 header .arrow a {
@@ -152,9 +152,8 @@ nav {
   display: flex;
   align-items: center;
   width: 100%;
-  background-color: rgba(255, 0, 0, 0.98);
+  background-color: rgba(230, 0, 0, 1);
   color: white;
-  padding: 0 1rem;
   box-shadow: 0px .5rem 1rem -.5rem rgba(0, 0, 0, 0.8);
   transition: 0.5s ease all;
 }
@@ -217,6 +216,10 @@ nav a:hover, nav a:hover span {
 nav .logo {
   display: inline;
   height: 1.5rem;
+}
+
+nav .logo, nav ul {
+  margin: 0 1em;
 }
 
 nav .logo h1 {
@@ -343,9 +346,9 @@ video { transform: translateX(-50%) translateY(-50%); }
     transform: translateY(0);
   }
   40% {
-    transform: translateY(-30px);
+    transform: translateY(-.5em);
   }
   60% {
-    transform: translateY(-15px);
+    transform: translateY(-.25em);
   }
 }
