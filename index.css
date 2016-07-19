@@ -91,6 +91,7 @@ header p:not(.arrow) {
 
 header .arrow {
   font-size: 1.5rem;
+  padding-bottom: 5vh;
   text-align: center;
   animation: bounce 2s infinite;
 }
