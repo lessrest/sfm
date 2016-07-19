@@ -344,7 +344,7 @@ header .arrow a {
 }
 
 @keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
+  0%, 30%, 50%, 70%, 100% {
     transform: translateY(0);
   }
   45% {
