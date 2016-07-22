@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="utf-8"?>
+<site xmlns:html="http://www.w3.org/1999/xhtml">
+  <title>
+    SFM Latvia Steel Fabrication Manufacturer
+  </title>
+
+  <resources>
+    <prefetch src="SFM_Loop_01.mp4" />
+    <prefetch src="SFM_Loop_02.mp4" />
+    <prefetch src="SFM_Loop_03.mp4" />
+    <prefetch src="SFM_Loop_04.mp4" />
+    <prefetch src="SFM_Loop_05.mp4" />
+    <prefetch src="SFM_Loop_06.mp4" />
+    <prefetch src="SFM_Loop_07.mp4" />
+    <prefetch src="SFM_Loop_08.mp4" />
+  </resources>
+
+  <logo>
+    <brand>
+      SFM <thin>Latvia</thin>
+    </brand>
+    <subtitle>
+      Steel Fabrication Manufacturer
+    </subtitle>
+  </logo>
+
+  <teaser>
+    <video-background src="SFM_Loop_08.mp4" />
+    <p>
+      We weld, cut, blast, paint, and assemble all types of steel
+      structures.
+    </p>
+    <p>
+      Our subcontracting projects include conveyors, mining equipment,
+      platforms, containers, and tanks.
+    </p>
+    <p>
+      The brand-new <abbr>SFM</abbr> premises in Jelgava&#x2019;s
+      industrial center are modern and well-equipped.
+    </p>
+    <p>
+      Please <a href="#contact">contact us</a> with any inquiries.
+    </p>
+  </teaser>
+
+  <section id="about">
+    <video-background src="SFM_Loop_04.mp4" />
+    <title>
+      About SFM
+    </title>
+    <p>
+      SFM Latvia is an Estonian&#x2013;Latvian joint venture
+      founded in 2010 by 2 experienced manufacturers, employing 50
+      workers.
+    </p>
+    <p>
+      We produce steel structures and components to our
+      customers&#x2019; specifications, mainly on the markets of the UK,
+      Netherlands, Finland, Sweden, and Norway.
+    </p>
+    <p>
+      Although still a young company, we have nearly 10 years of
+      experience&#x2014;and very ambitious plans.
+    </p>
+    <p>
+      We typically work on projects like:
+    </p>
+
+    <compact-list>
+      <item>
+        conveying equipment
+      </item>
+      <item>
+        construction equipment
+      </item>
+      <item>
+        mining machinery
+      </item>
+      <item>
+        vehicle platforms and lifts
+      </item>
+      <item>
+        containers
+      </item>
+      <item>
+        tanks
+      </item>
+      <item>
+        industrial mixers
+      </item>
+    </compact-list>
+
+    <p>
+      Our welders have <abbr>EN287</abbr> certifications and the
+      company is certified <abbr>ISO&#160;9001:2008</abbr>
+      by <abbr>BM&#160;TRADA</abbr> as well
+      as <abbr>EN&#160;1090-2</abbr>, <abbr>ISO&#160;14001:2004</abbr>,
+      and <abbr>OHSAS&#160;18001:2007</abbr>.
+    </p>
+
+    <p>
+      In 2015 our turnover was 3.1 million&#160;<abbr>EUR</abbr>.
+    </p>
+  </section>
+
+  <aside id="policy">
+    <h2>
+      Quality policy
+    </h2>
+    <list>
+      <item>
+        Produce top-quality products at competitive price levels.
+      </item>
+      <item>
+        Provide quality services compliant with established
+        standards.
+      </item>
+      <item>
+        Uphold our quality management system and continuously
+        improve its efficiency.
+      </item>
+      <item>
+        Continuously improve products and service quality.
+      </item>
+      <item>
+        Gain maximum customer satisfaction by delivering quality
+        products and services.
+      </item>
+      <item>
+        Continuously educate staff to match the company's financial
+        and quality standards.
+      </item>
+      <item>
+        Achieve our target of zero customer complaints and 98%
+        delivery performance.
+      </item>
+    </list>
+
+    <h2>Environment policy</h2>
+    <list>
+      <item>
+        Acknowledge and analyze environmental laws and regulations.
+      </item>
+      <item>
+        Continuously reduce our impact on the environment, as much as
+        allowed our financial and technical resources.
+      </item>
+      <item>
+        Continuously educate our staff to improve our environment
+        system.
+      </item>
+      <item>
+        Continuously improve on energy efficiency.
+      </item>
+    </list>
+  </aside>
+
+  <section id="production">
+    <video-background src="SFM_Loop_02.mp4" />
+
+    <title>
+      Our facilities
+    </title>
+
+    <p>
+      The SFM production premises were purpose-built in 2015.  They are
+      located in the industrial center of Jelgava, just 45&#160;km from
+      Riga.
+    </p>
+
+    <p>
+      The 3500&#160;m² area has a maximum lift capacity of 30 tonnes.
+      Our facilities for shotblasting and spray painting are among the
+      largest and most modern in the country.  We also have a final
+      assembly area.
+    </p>
+
+    <p>
+      Our facilities are capable of:
+    </p>
+
+    <compact-list>
+      <item>
+        MIG/MAG welding
+      </item>
+      <item>
+        TIG welding
+      </item>
+      <item>
+        rolling
+      </item>
+      <item>
+        turning
+      </item>
+      <item>
+        sawing
+      </item>
+      <item>
+        shotblasting
+      </item>
+      <item>
+        wet painting
+      </item>
+      <item>
+        cold zinc spray
+      </item>
+      <item>
+        semi- and final assembly
+      </item>
+    </compact-list>
+
+    <gallery>
+      <photo src="http://sfm.4free.lv/public/images/gallery/1/7.png"/>
+      <photo src="http://sfm.4free.lv/public/images/gallery/1/chassis.jpg"/>
+      <photo src="http://sfm.4free.lv/public/images/gallery/1/IMG_9408.jpg"/>
+      <photo src="http://sfm.4free.lv/public/images/gallery/1/IMG_9409.jpg"/>
+      <photo src="http://sfm.4free.lv/public/images/gallery/1/IMG_9502.jpg"/>
+      <photo src="http://sfm.4free.lv/public/images/gallery/1/IMG_9463.jpg"/>
+      <photo src="http://sfm.4free.lv/public/images/gallery/1/IMG_9559.jpg"/>
+      <photo src="http://sfm.4free.lv/public/images/gallery/1/IMG_9560.jpg"/>
+      <photo src="http://sfm.4free.lv/public/images/gallery/1/IMG_9561.jpg"/>
+      <photo src="http://sfm.4free.lv/public/images/gallery/1/IMG_9562.jpg"/>
+      <photo src="http://sfm.4free.lv/public/images/gallery/1/IMG_9563.jpg"/>
+      <photo src="http://sfm.4free.lv/public/images/gallery/1/IMG_9564.jpg"/>
+      <photo src="http://sfm.4free.lv/public/images/gallery/1/IMG_9638.jpg"/>
+      <photo src="http://sfm.4free.lv/public/images/gallery/1/IMG_9648.jpg"/>
+      <photo src="http://sfm.4free.lv/public/images/gallery/1/IMG_9659.jpg"/>
+      <photo src="http://sfm.4free.lv/public/images/gallery/1/IMG_9660.jpg"/>
+      <photo src="http://sfm.4free.lv/public/images/gallery/1/IMG_9661.jpg"/>
+      <photo src="http://sfm.4free.lv/public/images/gallery/1/EDZ_4693.jpg"/>
+      <photo src="http://sfm.4free.lv/public/images/gallery/1/EDZ_4700.jpg"/>
+      <photo src="http://sfm.4free.lv/public/images/gallery/1/EDZ_4710.jpg"/>
+      <photo src="http://sfm.4free.lv/public/images/gallery/1/EDZ_4717.jpg"/>
+      <photo src="http://sfm.4free.lv/public/images/gallery/1/EDZ_4720.jpg"/>
+      <photo src="http://sfm.4free.lv/public/images/gallery/1/EDZ_4725.jpg"/>
+      <photo src="http://sfm.4free.lv/public/images/gallery/1/EDZ_4731.jpg"/>
+    </gallery>
+  </section>
+
+  <section id="news">
+    <video-background src="SFM_Loop_06.mp4" />
+
+    <title>
+      News
+    </title>
+    <news>
+      <item date="17 May 2016">
+        Meet us on SUBCON Show in Birmingham 07-09 June 2016.
+      </item>
+      <item date="28 Apr 2016">
+        We care about the environment we are working, so we all came
+        together for a big cleaning on 23 April.
+      </item>
+      <item date="11 Apr 2016">
+        Meet us at Hannover Messe Subcontracting fair in Hannover,
+        Germany 25&#x2013;29 April 2016.
+      </item>
+      <item date="19 Jan 2016">
+        From 2016 we are ISO&#160;14001 and OHSAS&#160;18001 certified.
+      </item>
+      <item date="17 Nov 2015">
+        New promotional video released.
+      </item>
+      <item date="11 Nov 2015">
+        SFM @ Elmia Subcontracting show.
+      </item>
+    </news>
+  </section>
+
+  <section id="contact">
+    <video-background src="SFM_Loop_07.mp4" />
+
+    <title>
+      Contact us
+    </title>
+
+    <contact-details>
+      <section>
+        <field>
+          <name>Address</name>
+          <value>
+            <lines>
+              <line>Langervaldes str. 3</line>
+              <line>Jelgava, LV-3002</line>
+              <line>Latvia</line>
+            </lines>
+          </value>
+        </field>
+        <field>
+          <name>Phone</name>
+          <number>+371 630 82 014</number>
+        </field>
+        <field>
+          <name>Fax</name>
+          <number>+371 630 99 100</number>
+        </field>
+      </section>
+
+      <section>
+        <field>
+          <name>VAT</name>
+          <number>LV40103318408</number>
+        </field>
+        <field>
+          <name>Billing</name>
+          <value>Virsu str. 5, Ikskile, LV5052</value>
+        </field>
+        <field>
+          <name>Bank</name>
+          <value>Citadel Banka</value>
+        </field>
+        <field>
+          <name>SWIFT</name>
+          <number>PARXLV22</number>
+        </field>
+        <field>
+          <name>Account</name>
+          <number>LV40PARX0013976460001</number>
+        </field>
+      </section>
+    </contact-details>
+
+    <staff-group>
+      <title>Management &amp; Sales</title>
+      <person>
+        <name>
+          Mike Guppy
+        </name>
+        <occupation>
+          Operations Manager
+        </occupation>
+        <photo>
+          http://sfm.4free.lv/public/team/guppy.jpg
+        </photo>
+        <mobile>
+          +371 2868 9458
+        </mobile>
+        <phone>
+          +371 630 82 014
+        </phone>
+        <email>
+          mike@sfm.lv
+        </email>
+        <skype>
+          mikeguppy
+        </skype>
+      </person>
+      <person>
+        <name>
+          Nauris Jansons
+        </name>
+        <occupation>
+          CEO &amp; Co-Owner
+        </occupation>
+        <photo>
+          http://sfm.4free.lv/public/team/Nauris%20Jansons.jpeg&amp;resizefit=80x100
+        </photo>
+        <mobile>
+          +371 2660 3007
+        </mobile>
+        <phone>
+          +371 630 82 014
+        </phone>
+        <email>
+          nauris@sfm.lv
+        </email>
+      </person>
+    </staff-group>
+
+    <staff-group>
+      <title>Project Team</title>
+      <person>
+        <name>
+          Māris Jasons
+        </name>
+        <occupation>
+          Project Manager
+        </occupation>
+        <photo>
+          http://sfm.4free.lv/public/team/Maris%20Jasons-1.jpeg&amp;resizefit=80x100
+        </photo>
+        <mobile>
+          +371 2672 7807
+        </mobile>
+        <phone>
+          +371 630 82 014
+        </phone>
+        <email>
+          maris@sfm.lv
+        </email>
+      </person>
+      <person>
+        <name>
+          Romāns Ņikitins
+        </name>
+        <occupation>
+          Project Manager
+        </occupation>
+        <photo>
+          http://sfm.4free.lv/public/team/R.%C5%85ikitins.jpeg&amp;resizefit=80x100
+        </photo>
+        <mobile>
+          +371 2636 3482
+        </mobile>
+        <phone>
+          +371 630 82 014
+        </phone>
+        <email>
+          romans@sfm.lv
+        </email>
+      </person>
+      <person>
+        <name>
+          Andis Vižla
+        </name>
+        <occupation>
+          Project Manager
+        </occupation>
+        <photo>
+          http://sfm.4free.lv/public/team/Andis%20Vizla.jpeg&amp;resizefit=80x100
+        </photo>
+        <mobile>
+          +371 2711 7976
+        </mobile>
+        <phone>
+          +371 630 82 014
+        </phone>
+        <email>
+          andis@sfm.lv
+        </email>
+      </person>
+      <person>
+        <name>
+          Mārcis Rengards
+        </name>
+        <occupation>
+          Project Manager
+        </occupation>
+        <photo>
+          http://sfm.4free.lv/public/team/Marcis%20Rengards.jpeg&amp;resizefit=80x100
+        </photo>
+        <mobile>
+          +371 2615 1688
+        </mobile>
+        <phone>
+          +371 630 82 014
+        </phone>
+        <email>
+          marcis@sfm.lv
+        </email>
+      </person>
+    </staff-group>
+
+    <staff-group>
+      <title>Administration</title>
+      <person>
+        <name>
+          Elina Bauere
+        </name>
+        <occupation>
+          Administrator
+        </occupation>
+        <photo>
+          http://sfm.4free.lv/public/team/Elina%20Bauere.jpeg&amp;resizefit=80x100
+        </photo>
+        <mobile>
+          +371 220 490 99
+        </mobile>
+        <phone>
+          +371 630 82 014
+        </phone>
+        <email>
+          elina@sfm.lv
+        </email>
+      </person>
+    </staff-group>
+
+    <staff-group>
+      <title>Quality Team</title>
+      <person>
+        <name>
+          Artis Dude
+        </name>
+        <occupation>
+          Quality Inspector
+        </occupation>
+        <photo>
+          http://sfm.4free.lv/public/team/Artis%20Dude.jpeg&amp;resizefit=80x100
+        </photo>
+        <phone>
+          +371 630 82 014
+        </phone>
+      </person>
+      <person>
+        <name>
+          Emīls Āboltiņš
+        </name>
+        <occupation>
+          Quality Inspector
+        </occupation>
+        <photo>
+          http://sfm.4free.lv/public/team/Emils%20Aboltins.jpeg&amp;resizefit=80x100
+        </photo>
+        <phone>
+          +371 630 82 014
+        </phone>
+      </person>
+    </staff-group>
+
+    <staff-group>
+      <title>Engineering Team</title>
+      <person>
+        <name>
+          Guntis Leiskins
+        </name>
+        <occupation>
+          Engineer &amp; Designer
+        </occupation>
+        <photo>
+          http://sfm.4free.lv/public/team/leiskins.jpg&amp;resizefit=80x100
+        </photo>
+        <mobile>
+          +371 2202 1649
+        </mobile>
+        <phone>
+          +371 630 82 014
+        </phone>
+        <email>
+          guntis@sfm.lv
+        </email>
+      </person>
+      <person>
+        <name>
+          Kirils Jeļizarovs
+        </name>
+        <occupation>
+          Designer
+        </occupation>
+        <photo>
+          http://sfm.4free.lv/public/team/Kirils_bw.jpeg&amp;resizefit=80x100
+        </photo>
+        <mobile>
+          +371 2684 7554
+        </mobile>
+        <phone>
+          +371 630 82 014
+        </phone>
+        <email>
+          kirils@sfm.lv
+        </email>
+      </person>
+    </staff-group>
+
+    <staff-group>
+      <title>Accounts Team</title>
+      <person>
+        <name>
+          Inese Rengarde
+        </name>
+        <occupation>
+          Economist
+        </occupation>
+        <photo>
+          http://sfm.4free.lv/public/assets/img/empty_contact.png
+        </photo>
+        <mobile>
+          +371 2642 0320
+        </mobile>
+        <phone>
+          +371 630 82 014
+        </phone>
+        <email>
+          invoices@sfm.lv
+        </email>
+      </person>
+      <person>
+        <name>
+          Vineta Pinte-Serebrjakova
+        </name>
+        <occupation>
+          Chief Accountant
+        </occupation>
+        <photo>
+          http://sfm.4free.lv/public/team/Vineta%20Pinte.jpeg&amp;resizefit=80x100
+        </photo>
+        <mobile>
+          +371 2679 4056
+        </mobile>
+        <phone>
+          +371 630 82 014
+        </phone>
+        <email>
+          vineta@sfm.lv
+        </email>
+      </person>
+    </staff-group>
+
+  </section>
+</site>
