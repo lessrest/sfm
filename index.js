@@ -11,10 +11,8 @@ window.content.onscroll = document.onresize = function() {
 
   for (var i = sections.length - 1; i >= 0; i--) {
     if (y + 100 > sections[i].offsetTop || i == 0) {
-      var videoIndex = i
-      console.log(videoIndex)
-      videos.forEach(function (video, j) {
-        if (j == videoIndex) {
+      videos.forEach(function(video, j) {
+        if (j == i) {
           video.classList.add("playing")
           video.play()
         } else {

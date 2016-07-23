@@ -124,7 +124,9 @@
 
   <xsl:template match="teaser">
     <section class="teaser">
-      <xsl:apply-templates/>
+      <div class="content">
+        <xsl:apply-templates/>
+      </div>
     </section>
   </xsl:template>
 
@@ -150,7 +152,9 @@
 
   <xsl:template match="section">
     <section id="{@id}">
-      <xsl:apply-templates/>
+      <div class="content">
+        <xsl:apply-templates/>
+      </div>
     </section>
   </xsl:template>
 
@@ -160,7 +164,9 @@
 
   <xsl:template match="aside">
     <aside id="{@id}">
-      <xsl:apply-templates/>
+      <div class="content">
+        <xsl:apply-templates/>
+      </div>
     </aside>
   </xsl:template>
 

@@ -114,10 +114,28 @@ body {
   overflow-y: scroll;
 }
 
-section, aside {
+section .content, aside .content {
   max-width: 27rem;
   padding: .5rem 1.5rem;
   margin: 2rem auto;
+}
+
+section, aside {
+  width: 100%;
+}
+
+section:nth-child(odd) {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+section:last-child {
+  background-color: white;
+  color: black;
+}
+
+section:nth-child(even):not(.teaser), aside:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: black;
 }
 
 p {
@@ -137,9 +155,11 @@ dd:last-child {
   margin-bottom: 0;
 }
 
+section:not(.teaser), aside {
+  border-top: .5rem solid white;
+}
+
 main {
-  /* border-top: .5rem solid white; */
-  /* background-color: rgba(0, 0, 0, 0.4); */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -160,7 +180,6 @@ nav {
   width: 100%;
   background-color: rgba(230, 0, 0, 1);
   color: white;
-  box-shadow: 0px .5rem 1rem -.5rem rgba(0, 0, 0, 0.8);
   transition: 0.5s ease all;
 }
 
@@ -247,6 +266,11 @@ nav .logo h2 {
  * Sections
  */
 
+section h2 {
+  font-size: 1.5rem;
+  line-height: 4rem;
+}
+
 section h2, section h3 {
   text-align: center;
   font-weight: 600;
@@ -279,18 +303,15 @@ aside ul li {
 }
 
 section:not(.teaser) {
-  padding-top: 6rem;
+  padding: 6rem 0;
 }
 
-aside {
-  font-size: 80%;
-  background-color: rgba(255, 255, 255, 0.8);
-  color: black;
-  padding: 1rem 1rem;
+section, aside {
+  width: 100%;
 }
 
 .contactinfo {
-  margin: 1rem 0;
+  margin: 2rem 0;
 }
 
 .contactinfo tr {
@@ -300,6 +321,7 @@ aside {
 .contactinfo td:first-child {
   text-align: right;
   padding-right: .5rem;
+  font-weight: bold;
 }
 
 .contactinfo tbody:not(:first-child) tr:first-child td {
@@ -353,11 +375,11 @@ aside {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: .5rem;
+  margin: .5rem 0 2rem;
 }
 
-section#contact {
-  max-width: 32em;
+section#contact .content {
+  max-width: 650px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -389,7 +411,7 @@ video { transform: translateX(-50%) translateY(-50%); }
 .fade { background-color: rgba(0, 0, 0, 0.1); }
 .fade { z-index: -1; }
 
-video { transition: 5s ease all; }
+video { transition: 3s ease all; }
 video { opacity: 0; }
 video.playing { opacity: 1; }
 
@@ -439,6 +461,7 @@ header .arrow a {
 }
 
 .gallery {
+  display: none;
   list-style-type: none;
 }
 
