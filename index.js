@@ -1,5 +1,7 @@
-var videos = [].slice.call(document.querySelectorAll("video"))
-var sections = [].slice.call(document.querySelectorAll("section"))
+function select(selector) {
+  return [].slice.call(document.querySelectorAll(selector))
+}
+
 var container = document.body
 
 container.onscroll = document.onresize = function() {
@@ -9,28 +11,16 @@ container.onscroll = document.onresize = function() {
   } else {
     document.body.classList.remove("scrolled")
   }
-
-  // for (var i = sections.length - 1; i >= 0; i--) {
-  //   if (y + 100 > sections[i].offsetTop || i == 0) {
-  //     videos.forEach(function(video, j) {
-  //       if (j == i) {
-  //         video.classList.add("playing")
-  //         video.play()
-  //       } else {
-  //         video.classList.remove("playing")
-  //         video.pause()
-  //       }
-  //     })
-  //     return
-  //   }
-  // }
 }
 
 container.onscroll()
 
-var asides = [].slice.call(document.querySelectorAll("aside"))
-asides.forEach(function(aside) {
+select("aside").forEach(function(aside) {
   aside.onclick = function() {
     aside.classList.toggle("expanded")
   }
+})
+
+select("video").forEach(function(video) {
+  video._dashjs_player.setFastSwitchEnabled(true)
 })
