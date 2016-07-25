@@ -325,10 +325,4 @@
       <xsl:apply-templates/>
     </footer>
   </xsl:template>
-
-  <xsl:template match="click-to-play-video">
-    <a href="#" class="click-to-play-video">
-      <xsl:apply-templates/>
-    </a>
-  </xsl:template>
 </xsl:stylesheet>
