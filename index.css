@@ -1,7 +1,7 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500);
 
 html {
-  font: 16px/1.4 "roboto";
+  font: 16px/1.4 "roboto", helvetica, sans-serif;
 }
 
 
@@ -78,7 +78,6 @@ header .logo h1 {
   display: inline-block;
   background-color: rgba(230, 0, 0, 1);
   padding: .125em .4em .05em;
-  box-shadow: 0px 0px 30px rgba(0, 0, 0, .2);
 }
 
 header p:not(.arrow) {
@@ -122,7 +121,7 @@ section {
 }
 
 section:nth-child(odd) {
-  background-color: rgba(155, 38, 38, 0.5);
+  background-color: rgba(50, 0, 0, 0.5);
 }
 
 aside {
@@ -140,7 +139,9 @@ body:not(.js) aside .summary {
 
 section:nth-child(even):not(.teaser) {
   background-color: rgba(255, 255, 255, 1);
+  background: url(redox_01.png);
   color: #222;
+  opacity: .9;
 }
 
 section:nth-child(even):not(.teaser) h2 {
@@ -187,9 +188,12 @@ nav {
   display: flex;
   align-items: center;
   width: 100%;
-  background-color: rgba(230, 0, 0, 1);
-  color: white;
+  /* background-color: rgba(230, 0, 0, 1); */
+  /* color: white; */
+  background-color: white;
+  color: black;
   transition: 0.5s ease all;
+  z-index: 1;
 }
 
 body.js:not(.scrolled) nav {
@@ -285,6 +289,7 @@ nav .logo h2 {
 .section-part > h3 {
   letter-spacing: -.05em;
   font-weight: normal;
+  font-weight: 200;
 }
 
 section h2, section h3 {
@@ -308,6 +313,7 @@ ul.wrap li {
 ul.wrap li:before {
   content: '•';
   padding: 0 .25em 0 .5em;
+  color: red;
 }
 
 aside {
@@ -371,7 +377,6 @@ section, aside {
   line-height: 1.2;
   font-size: 12px;
   margin: 8px;
-  background: white;
   color: black;
   border: 0px solid #ccc;
 }
@@ -433,7 +438,7 @@ td {
 }
 
 .mono {
-  font-family: courier;
+  font-family: menlo, courier, monospace;
 }
 
 /*
@@ -457,7 +462,7 @@ video { transform: translateX(-50%) translateY(-50%); }
   html { font-size: 18px; }
 }
 @media (min-width: 1100px) {
-  html { font-size: 24px; }
+  html { font-size: 20px; }
   nav { font-size: 1.25rem; }
 }
 
@@ -560,15 +565,29 @@ header .arrow a {
 
 footer {
   background-color: rgba(100, 38, 38, 0.7);
+  background-color: rgba(255, 255, 255, 0.85);
+  background-color: white;
+  border-top: 1px solid #999;
+  color: #222;
   width: 100%;
   text-align: center;
   padding: .5rem 1rem;
-  font-size: small;
-  font-family: "courier new";
+  font-size: 13px;
+  font-family: menlo, "courier new", monospace;
+}
+
+footer a {
+  text-decoration: none;
+  border-bottom: 1px solid #666;
 }
 
 @media (min-width: 800px) {
   .click-to-play-video {
     display: none;
   }
+}
+
+.teaser a {
+  text-decoration: none;
+  border-bottom: 1px solid white;
 }

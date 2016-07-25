@@ -103,7 +103,7 @@
   </xsl:template>
 
   <xsl:template match="a">
-    <a href="{@href}">
+    <a href="{@href}" title="{@title}">
       <xsl:apply-templates/>
     </a>
   </xsl:template>

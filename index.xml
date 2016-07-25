@@ -22,18 +22,22 @@
       structures.
     </p>
     <p>
-      Our subcontracting projects include conveyors, mining equipment,
+      Our projects include conveyors, mining equipment,
       platforms, containers, and tanks.
     </p>
     <p>
-      Please <a href="#contact">contact us</a> with any
-      inquiries&#x2014;we look forward to hearing from you.
+      We have experience, certifications, and custom-built modern
+      premises.
+    </p>
+    <p>
+      <a href="#contact">Contact us.</a> We look forward to being your
+      preferred steel subcontractor.
     </p>
   </teaser>
 
   <section id="about">
     <title>
-      About SFM
+      The company
     </title>
     <p>
       SFM Latvia is an Estonian&#x2013;Latvian joint venture
@@ -264,12 +268,18 @@
           <name>Address</name>
           <value>
             <lines>
-              <line>Langervaldes str. 3</line>
+              <line>
+                <a href="https://www.google.lv/maps/place/Langervaldes+iela+3,+Raub%C4%93ni,+Cenu+pagasts,+LV-3002,+Latvia/@56.6614423,23.7834425,14z" title="Google Maps">
+                  Langervaldes str. 3
+                </a>
+              </line>
               <line>Jelgava, LV-3002</line>
               <line>Latvia</line>
             </lines>
           </value>
         </field>
+      </section>
+      <section>
         <field>
           <name>Phone</name>
           <number>+371 630 82 014</number>
@@ -580,6 +590,7 @@
     </subsection>
   </section>
   <footer>
-    Website by <a href="#">Restless</a>. Video production by <a href="#">Porta Bonanza</a>.
+    Videos by <a href="#">Porta Bonanza</a>.
+    Website by <a href="#">Restless</a>.
   </footer>
 </site>
