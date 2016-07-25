@@ -4,16 +4,8 @@
     SFM Latvia Steel Fabrication Manufacturer
   </title>
 
-  <resources>
-    <prefetch src="SFM_Loop_01.mp4" />
-    <prefetch src="SFM_Loop_02.mp4" />
-    <prefetch src="SFM_Loop_03.mp4" />
-    <prefetch src="SFM_Loop_04.mp4" />
-    <prefetch src="SFM_Loop_05.mp4" />
-    <prefetch src="SFM_Loop_06.mp4" />
-    <prefetch src="SFM_Loop_07.mp4" />
-    <prefetch src="SFM_Loop_08.mp4" />
-  </resources>
+  <video-background
+      src="https://s3-eu-west-1.amazonaws.com/restless-videos/output/all-loops-2/all-loops-2.mpd"/>
 
   <logo>
     <brand>
@@ -25,7 +17,6 @@
   </logo>
 
   <teaser>
-    <video-background src="SFM_Loop_08.mp4" />
     <p>
       We weld, cut, blast, paint, and assemble all types of steel
       structures.
@@ -44,7 +35,6 @@
   </teaser>
 
   <section id="about">
-    <video-background src="SFM_Loop_04.mp4" />
     <title>
       About SFM
     </title>
@@ -104,6 +94,9 @@
   </section>
 
   <aside id="policy">
+    <summary>
+      Show SFM&#x2019;s quality &amp; environment policies
+    </summary>
     <h2>
       Quality policy
     </h2>
@@ -156,8 +149,6 @@
   </aside>
 
   <section id="production">
-    <video-background src="SFM_Loop_02.mp4" />
-
     <title>
       Our facilities
     </title>
@@ -238,8 +229,6 @@
   </section>
 
   <section id="news">
-    <video-background src="SFM_Loop_06.mp4" />
-
     <title>
       News
     </title>
@@ -268,8 +257,6 @@
   </section>
 
   <section id="contact">
-    <video-background src="SFM_Loop_07.mp4" />
-
     <title>
       Contact us
     </title>

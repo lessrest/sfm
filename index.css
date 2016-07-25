@@ -100,20 +100,6 @@ header p:not(.arrow) {
  * Layout
  */
 
-body {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  overflow: hidden;
-}
-
-#content {
-  height: 100%;
-  overflow-y: scroll;
-}
-
 section .content, aside .content {
   max-width: 27rem;
   padding: .5rem 1.5rem;
@@ -133,7 +119,22 @@ section:last-child {
   color: black;
 }
 
-section:nth-child(even):not(.teaser), aside:nth-child(even) {
+aside {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+aside .summary {
+  text-align: center;
+  text-decoration: underline;
+}
+
+body:not(.js) aside .summary {
+  display: none;
+}
+
+section:nth-child(even):not(.teaser) {
   background-color: rgba(255, 255, 255, 0.8);
   color: black;
 }
@@ -188,7 +189,7 @@ body.js:not(.scrolled) nav {
 }
 
 body nav {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -302,6 +303,16 @@ aside ul li {
   margin: .5rem 0;
 }
 
+body.js aside .details {
+  max-height: 0;
+  transition: .5s ease all;
+  overflow-y: hidden;
+}
+
+body.js aside.expanded .details {
+  max-height: 60rem;
+}
+
 section:not(.teaser) {
   padding: 6rem 0;
 }
@@ -410,10 +421,6 @@ video { transform: translateX(-50%) translateY(-50%); }
 .fade { position: fixed; top: 0; left: 0; bottom: 0; right: 0; }
 .fade { background-color: rgba(0, 0, 0, 0.1); }
 .fade { z-index: -1; }
-
-video { transition: 3s ease all; }
-video { opacity: 0; }
-video.playing { opacity: 1; }
 
 /*
  * Responsive font size

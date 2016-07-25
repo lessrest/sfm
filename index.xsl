@@ -15,7 +15,7 @@
         <meta name="viewport"
               content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="index.css"/>
-        <xsl:apply-templates select="resources"/>
+        <script src="dash.all.min.js"></script>
         <title>
           <xsl:value-of select="title"/>
         </title>
@@ -26,7 +26,7 @@
         </script>
 
         <xsl:apply-templates
-            select="section/video-background | teaser/video-background"
+            select="video-background"
             mode="background" />
         <div class="fade"/>
 
@@ -66,9 +66,7 @@
   </xsl:template>
 
   <xsl:template match="video-background" mode="background">
-    <video loop="true">
-      <source src="{@src}" type="video/mp4" />
-    </video>
+    <video loop="true" data-dashjs-player="true" src="{@src}" autoplay="true" />
   </xsl:template>
 
   <xsl:template match="video-background">
@@ -164,10 +162,18 @@
 
   <xsl:template match="aside">
     <aside id="{@id}">
-      <div class="content">
-        <xsl:apply-templates/>
+      <div class="summary">
+        <xsl:value-of select="summary"/>
+      </div>
+      <div class="details">
+        <div class="content">
+          <xsl:apply-templates/>
+        </div>
       </div>
     </aside>
+  </xsl:template>
+
+  <xsl:template match="aside/summary">
   </xsl:template>
 
   <xsl:template match="news">
