@@ -1,4 +1,4 @@
-function select(selector) {
+function selectAll(selector) {
   return [].slice.call(document.querySelectorAll(selector))
 }
 
@@ -15,12 +15,15 @@ container.onscroll = document.onresize = function() {
 
 container.onscroll()
 
-select("aside").forEach(function(aside) {
+selectAll("aside").forEach(function(aside) {
   aside.onclick = function() {
     aside.classList.toggle("expanded")
   }
 })
 
-select("video").forEach(function(video) {
-  video._dashjs_player.setFastSwitchEnabled(true)
+selectAll("video").forEach(function(element) {
+  var src = element.dataset["src"]
+  var player = dashjs.MediaPlayer().create()
+  player.setFastSwitchEnabled()
+  player.initialize(element, src, true)
 })

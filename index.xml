@@ -26,11 +26,8 @@
       platforms, containers, and tanks.
     </p>
     <p>
-      The brand-new <abbr>SFM</abbr> premises in Jelgava&#x2019;s
-      industrial center are modern and well-equipped.
-    </p>
-    <p>
-      Please <a href="#contact">contact us</a> with any inquiries.
+      Please <a href="#contact">contact us</a> with any
+      inquiries&#x2014;we look forward to hearing from you.
     </p>
   </teaser>
 
@@ -91,62 +88,62 @@
     <p>
       In 2015 our turnover was 3.1 million&#160;<abbr>EUR</abbr>.
     </p>
+
+    <aside id="policy">
+      <summary>
+        Show SFM&#x2019;s quality &amp; environment policies
+      </summary>
+      <h2>
+        Quality policy
+      </h2>
+      <list>
+        <item>
+          Produce top-quality products at competitive price levels.
+        </item>
+        <item>
+          Provide quality services compliant with established
+          standards.
+        </item>
+        <item>
+          Uphold our quality management system and continuously
+          improve its efficiency.
+        </item>
+        <item>
+          Continuously improve products and service quality.
+        </item>
+        <item>
+          Gain maximum customer satisfaction by delivering quality
+          products and services.
+        </item>
+        <item>
+          Continuously educate staff to match the company's financial
+          and quality standards.
+        </item>
+        <item>
+          Achieve our target of zero customer complaints and 98%
+          delivery performance.
+        </item>
+      </list>
+
+      <h2>Environment policy</h2>
+      <list>
+        <item>
+          Acknowledge and analyze environmental laws and regulations.
+        </item>
+        <item>
+          Continuously reduce our impact on the environment, as much as
+          allowed our financial and technical resources.
+        </item>
+        <item>
+          Continuously educate our staff to improve our environment
+          system.
+        </item>
+        <item>
+          Continuously improve on energy efficiency.
+        </item>
+      </list>
+    </aside>
   </section>
-
-  <aside id="policy">
-    <summary>
-      Show SFM&#x2019;s quality &amp; environment policies
-    </summary>
-    <h2>
-      Quality policy
-    </h2>
-    <list>
-      <item>
-        Produce top-quality products at competitive price levels.
-      </item>
-      <item>
-        Provide quality services compliant with established
-        standards.
-      </item>
-      <item>
-        Uphold our quality management system and continuously
-        improve its efficiency.
-      </item>
-      <item>
-        Continuously improve products and service quality.
-      </item>
-      <item>
-        Gain maximum customer satisfaction by delivering quality
-        products and services.
-      </item>
-      <item>
-        Continuously educate staff to match the company's financial
-        and quality standards.
-      </item>
-      <item>
-        Achieve our target of zero customer complaints and 98%
-        delivery performance.
-      </item>
-    </list>
-
-    <h2>Environment policy</h2>
-    <list>
-      <item>
-        Acknowledge and analyze environmental laws and regulations.
-      </item>
-      <item>
-        Continuously reduce our impact on the environment, as much as
-        allowed our financial and technical resources.
-      </item>
-      <item>
-        Continuously educate our staff to improve our environment
-        system.
-      </item>
-      <item>
-        Continuously improve on energy efficiency.
-      </item>
-    </list>
-  </aside>
 
   <section id="production">
     <title>
@@ -307,7 +304,7 @@
       </section>
     </contact-details>
 
-    <staff-group>
+    <subsection>
       <title>Management &amp; Sales</title>
       <person>
         <name>
@@ -352,10 +349,10 @@
           nauris@sfm.lv
         </email>
       </person>
-    </staff-group>
+    </subsection>
 
-    <staff-group>
-      <title>Project Team</title>
+    <subsection>
+      <title>Project</title>
       <person>
         <name>
           Māris Jasons
@@ -436,9 +433,9 @@
           marcis@sfm.lv
         </email>
       </person>
-    </staff-group>
+    </subsection>
 
-    <staff-group>
+    <subsection>
       <title>Administration</title>
       <person>
         <name>
@@ -460,10 +457,10 @@
           elina@sfm.lv
         </email>
       </person>
-    </staff-group>
+    </subsection>
 
-    <staff-group>
-      <title>Quality Team</title>
+    <subsection>
+      <title>Quality</title>
       <person>
         <name>
           Artis Dude
@@ -492,10 +489,10 @@
           +371 630 82 014
         </phone>
       </person>
-    </staff-group>
+    </subsection>
 
-    <staff-group>
-      <title>Engineering Team</title>
+    <subsection>
+      <title>Engineering</title>
       <person>
         <name>
           Guntis Leiskins
@@ -536,10 +533,10 @@
           kirils@sfm.lv
         </email>
       </person>
-    </staff-group>
+    </subsection>
 
-    <staff-group>
-      <title>Accounts Team</title>
+    <subsection>
+      <title>Accounts</title>
       <person>
         <name>
           Inese Rengarde
@@ -580,7 +577,9 @@
           vineta@sfm.lv
         </email>
       </person>
-    </staff-group>
-
+    </subsection>
   </section>
+  <footer>
+    Website by <a href="#">Restless</a>. Video production by <a href="#">Porta Bonanza</a>.
+  </footer>
 </site>

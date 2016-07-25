@@ -47,7 +47,7 @@
           </header>
 
           <main id="main">
-            <xsl:apply-templates select="section | aside"/>
+            <xsl:apply-templates select="section | aside | footer"/>
           </main>
         </div>
       </body>
@@ -66,7 +66,7 @@
   </xsl:template>
 
   <xsl:template match="video-background" mode="background">
-    <video loop="true" data-dashjs-player="true" src="{@src}" autoplay="true" />
+    <video data-src="{@src}" autoplay="true" loop="true"/>
   </xsl:template>
 
   <xsl:template match="video-background">
@@ -122,8 +122,10 @@
 
   <xsl:template match="teaser">
     <section class="teaser">
-      <div class="content">
-        <xsl:apply-templates/>
+      <div class="section-part">
+        <div class="content">
+          <xsl:apply-templates/>
+        </div>
       </div>
     </section>
   </xsl:template>
@@ -150,14 +152,25 @@
 
   <xsl:template match="section">
     <section id="{@id}">
-      <div class="content">
-        <xsl:apply-templates/>
+      <div class="section-part">
+        <xsl:apply-templates mode="title" select="title" />
+        <div class="content">
+          <xsl:apply-templates/>
+        </div>
       </div>
+      <xsl:apply-templates mode="subsections" select="subsection"/>
     </section>
   </xsl:template>
 
-  <xsl:template match="section/title">
+  <xsl:template match="section/title" mode="title">
     <h2><xsl:apply-templates/></h2>
+  </xsl:template>
+
+  <xsl:template match="subsection/title" mode="title">
+    <h3><xsl:apply-templates/></h3>
+  </xsl:template>
+
+  <xsl:template match="title">
   </xsl:template>
 
   <xsl:template match="aside">
@@ -174,6 +187,18 @@
   </xsl:template>
 
   <xsl:template match="aside/summary">
+  </xsl:template>
+
+  <xsl:template match="subsection">
+  </xsl:template>
+
+  <xsl:template match="subsection" mode="subsections">
+    <div class="subsection section-part">
+      <xsl:apply-templates mode="title" select="title"/>
+      <div class="content">
+        <xsl:apply-templates/>
+      </div>
+    </div>
   </xsl:template>
 
   <xsl:template match="news">
@@ -293,5 +318,11 @@
     <li>
       <img src="{@src}&amp;resizefit=130x98"/>
     </li>
+  </xsl:template>
+
+  <xsl:template match="footer">
+    <footer>
+      <xsl:apply-templates/>
+    </footer>
   </xsl:template>
 </xsl:stylesheet>
