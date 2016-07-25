@@ -29,6 +29,10 @@
       Please <a href="#contact">contact us</a> with any
       inquiries&#x2014;we look forward to hearing from you.
     </p>
+
+    <click-to-play-video>
+      Play background video.
+    </click-to-play-video>
   </teaser>
 
   <section id="about">

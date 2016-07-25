@@ -27,3 +27,11 @@ selectAll("video").forEach(function(element) {
   player.setFastSwitchEnabled()
   player.initialize(element, src, true)
 })
+
+selectAll(".click-to-play-video").forEach(function(element) {
+  element.onclick = function() {
+    selectAll("video").forEach(function(video) {
+      video.play()
+    })
+  }
+})

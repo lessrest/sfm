@@ -63,8 +63,14 @@ header {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  padding-top: 4rem;
   color: white;
+  padding-top: 1rem;
+}
+
+@media (min-width: 800px) {
+  header {
+    padding-top: 4rem;
+  }
 }
 
 header .logo h1 {
@@ -559,4 +565,10 @@ footer {
   padding: .5rem 1rem;
   font-size: small;
   font-family: "courier new";
+}
+
+@media (min-width: 800px) {
+  .click-to-play-video {
+    display: none;
+  }
 }
