@@ -158,7 +158,7 @@
           <xsl:apply-templates/>
         </div>
       </div>
-      <xsl:apply-templates mode="subsections" select="subsection"/>
+      <xsl:apply-templates mode="subsections" select="subsection | gallery"/>
     </section>
   </xsl:template>
 
@@ -309,15 +309,22 @@
   <!-- </xsl:template> -->
 
   <xsl:template match="gallery">
-    <ul class="gallery">
-      <xsl:apply-templates/>
-    </ul>
+  </xsl:template>
+
+  <xsl:template match="gallery" mode="subsections">
+    <div class="subsection">
+      <div class="gallery">
+        <xsl:apply-templates/>
+      </div>
+    </div>
   </xsl:template>
 
   <xsl:template match="photo">
-    <li>
-      <img src="{@src}&amp;resizefit=130x98"/>
-    </li>
+    <div class="photo">
+      <a href="gallery.html#{@id}">
+        <img src="{@src}&amp;resizefit=130x98" class="small"/>
+      </a>
+    </div>
   </xsl:template>
 
   <xsl:template match="footer">

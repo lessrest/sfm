@@ -202,30 +202,30 @@
     </compact-list>
 
     <gallery>
-      <photo src="http://sfm.4free.lv/public/images/gallery/1/7.png"/>
-      <photo src="http://sfm.4free.lv/public/images/gallery/1/chassis.jpg"/>
-      <photo src="http://sfm.4free.lv/public/images/gallery/1/IMG_9408.jpg"/>
-      <photo src="http://sfm.4free.lv/public/images/gallery/1/IMG_9409.jpg"/>
-      <photo src="http://sfm.4free.lv/public/images/gallery/1/IMG_9502.jpg"/>
-      <photo src="http://sfm.4free.lv/public/images/gallery/1/IMG_9463.jpg"/>
-      <photo src="http://sfm.4free.lv/public/images/gallery/1/IMG_9559.jpg"/>
-      <photo src="http://sfm.4free.lv/public/images/gallery/1/IMG_9560.jpg"/>
-      <photo src="http://sfm.4free.lv/public/images/gallery/1/IMG_9561.jpg"/>
-      <photo src="http://sfm.4free.lv/public/images/gallery/1/IMG_9562.jpg"/>
-      <photo src="http://sfm.4free.lv/public/images/gallery/1/IMG_9563.jpg"/>
-      <photo src="http://sfm.4free.lv/public/images/gallery/1/IMG_9564.jpg"/>
-      <photo src="http://sfm.4free.lv/public/images/gallery/1/IMG_9638.jpg"/>
-      <photo src="http://sfm.4free.lv/public/images/gallery/1/IMG_9648.jpg"/>
-      <photo src="http://sfm.4free.lv/public/images/gallery/1/IMG_9659.jpg"/>
-      <photo src="http://sfm.4free.lv/public/images/gallery/1/IMG_9660.jpg"/>
-      <photo src="http://sfm.4free.lv/public/images/gallery/1/IMG_9661.jpg"/>
-      <photo src="http://sfm.4free.lv/public/images/gallery/1/EDZ_4693.jpg"/>
-      <photo src="http://sfm.4free.lv/public/images/gallery/1/EDZ_4700.jpg"/>
-      <photo src="http://sfm.4free.lv/public/images/gallery/1/EDZ_4710.jpg"/>
-      <photo src="http://sfm.4free.lv/public/images/gallery/1/EDZ_4717.jpg"/>
-      <photo src="http://sfm.4free.lv/public/images/gallery/1/EDZ_4720.jpg"/>
-      <photo src="http://sfm.4free.lv/public/images/gallery/1/EDZ_4725.jpg"/>
-      <photo src="http://sfm.4free.lv/public/images/gallery/1/EDZ_4731.jpg"/>
+      <photo src="http://sfm.4free.lv/public/images/gallery/1/IMG_9560.jpg" id="img-9560"/>
+      <photo src="http://sfm.4free.lv/public/images/gallery/1/IMG_9561.jpg" id="img-9561"/>
+      <photo src="http://sfm.4free.lv/public/images/gallery/1/IMG_9562.jpg" id="img-9562"/>
+      <photo src="http://sfm.4free.lv/public/images/gallery/1/IMG_9563.jpg" id="img-9563"/>
+      <photo src="http://sfm.4free.lv/public/images/gallery/1/IMG_9648.jpg" id="img-9648"/>
+      <photo src="http://sfm.4free.lv/public/images/gallery/1/IMG_9659.jpg" id="img-9659"/>
+      <photo src="http://sfm.4free.lv/public/images/gallery/1/IMG_9660.jpg" id="img-9660"/>
+      <photo src="http://sfm.4free.lv/public/images/gallery/1/IMG_9661.jpg" id="img-9661"/>
+      <photo src="http://sfm.4free.lv/public/images/gallery/1/IMG_9564.jpg" id="img-9564"/>
+      <photo src="http://sfm.4free.lv/public/images/gallery/1/IMG_9638.jpg" id="img-9638"/>
+      <photo src="http://sfm.4free.lv/public/images/gallery/1/EDZ_4693.jpg" id="img-4693"/>
+      <photo src="http://sfm.4free.lv/public/images/gallery/1/EDZ_4700.jpg" id="img-4700"/>
+      <photo src="http://sfm.4free.lv/public/images/gallery/1/EDZ_4710.jpg" id="img-4710"/>
+      <photo src="http://sfm.4free.lv/public/images/gallery/1/EDZ_4717.jpg" id="img-4717"/>
+      <photo src="http://sfm.4free.lv/public/images/gallery/1/EDZ_4720.jpg" id="img-4720"/>
+      <photo src="http://sfm.4free.lv/public/images/gallery/1/EDZ_4725.jpg" id="img-4725"/>
+      <photo src="http://sfm.4free.lv/public/images/gallery/1/EDZ_4731.jpg" id="img-4731"/>
+      <photo src="http://sfm.4free.lv/public/images/gallery/1/7.png" id="img-7"/>
+      <photo src="http://sfm.4free.lv/public/images/gallery/1/chassis.jpg" id="img-chassis"/>
+      <photo src="http://sfm.4free.lv/public/images/gallery/1/IMG_9408.jpg" id="img-9408"/>
+      <photo src="http://sfm.4free.lv/public/images/gallery/1/IMG_9409.jpg" id="img-9409"/>
+      <photo src="http://sfm.4free.lv/public/images/gallery/1/IMG_9502.jpg" id="img-9502"/>
+      <photo src="http://sfm.4free.lv/public/images/gallery/1/IMG_9463.jpg" id="img-9463"/>
+      <photo src="http://sfm.4free.lv/public/images/gallery/1/IMG_9559.jpg" id="img-9559"/>
     </gallery>
   </section>
 
