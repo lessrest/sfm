@@ -202,7 +202,7 @@
   </xsl:template>
 
   <xsl:template match="news">
-    <dl>
+    <dl class="news">
       <xsl:apply-templates/>
     </dl>
   </xsl:template>

@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<site xmlns:html="http://www.w3.org/1999/xhtml">
+<!DOCTYPE site [
+<!ENTITY endash "&#x2013;">
+<!ENTITY emdash "&#x2014;">
+<!ENTITY apostrophe "&#x2019;">
+<!ENTITY space "&#160;">
+]>
+
+<site>
   <title>
     SFM Latvia Steel Fabrication Manufacturer
   </title>
@@ -22,8 +29,8 @@
       structures.
     </p>
     <p>
-      Our projects include conveyors, mining equipment,
-      platforms, containers, and tanks.
+      Our projects include mining chassis, repair platforms,
+      industrial mixers, containers, and storage tanks.
     </p>
     <p>
       We have experience, certifications, and custom-built modern
@@ -40,18 +47,18 @@
       The company
     </title>
     <p>
-      SFM Latvia is an Estonian&#x2013;Latvian joint venture
+      SFM Latvia is an Estonian&endash;Latvian joint venture
       founded in 2010 by 2 experienced manufacturers, employing 50
       workers.
     </p>
     <p>
       We produce steel structures and components to our
-      customers&#x2019; specifications, mainly on the markets of the UK,
-      Netherlands, Finland, Sweden, and Norway.
+      customers&apostrophe; specifications, mainly on the markets of
+      the UK, Netherlands, Finland, Sweden, and Norway.
     </p>
     <p>
       Although still a young company, we have nearly 10 years of
-      experience&#x2014;and very ambitious plans.
+      experience&emdash;and very ambitious plans.
     </p>
     <p>
       We typically work on projects like:
@@ -83,19 +90,19 @@
 
     <p>
       Our welders have <abbr>EN287</abbr> certifications and the
-      company is certified <abbr>ISO&#160;9001:2008</abbr>
-      by <abbr>BM&#160;TRADA</abbr> as well
-      as <abbr>EN&#160;1090-2</abbr>, <abbr>ISO&#160;14001:2004</abbr>,
-      and <abbr>OHSAS&#160;18001:2007</abbr>.
+      company is certified <abbr>ISO&space;9001:2008</abbr>
+      by <abbr>BM&space;TRADA</abbr> as well
+      as <abbr>EN&space;1090-2</abbr>, <abbr>ISO&space;14001:2004</abbr>,
+      and <abbr>OHSAS&space;18001:2007</abbr>.
     </p>
 
     <p>
-      In 2015 our turnover was 3.1 million&#160;<abbr>EUR</abbr>.
+      In 2015 our turnover was 3.1 million&space;<abbr>EUR</abbr>.
     </p>
 
     <aside id="policy">
       <summary>
-        Show SFM&#x2019;s quality &amp; environment policies
+        Show SFM&apostrophe;s quality &amp; environment policies
       </summary>
       <h2>
         Quality policy
@@ -156,19 +163,19 @@
 
     <p>
       The SFM production premises were purpose-built in 2015.  They are
-      located in the industrial center of Jelgava, just 45&#160;km from
+      located in the industrial center of Jelgava, just 45&space;km from
       Riga.
     </p>
 
     <p>
-      The 3500&#160;m² area has a maximum lift capacity of 30 tonnes.
+      The 3500&space;m² area has a maximum lift capacity of 30 tonnes.
       Our facilities for shotblasting and spray painting are among the
       largest and most modern in the country.  We also have a final
       assembly area.
     </p>
 
     <p>
-      Our facilities are capable of:
+      Our facilities are highly capable. We can do:
     </p>
 
     <compact-list>
@@ -194,7 +201,19 @@
         wet painting
       </item>
       <item>
-        cold zinc spray
+        cold zinc spraying
+      </item>
+      <item>
+        pneumatic tapping
+      </item>
+      <item>
+        plasma cutting
+      </item>
+      <item>
+        advanced measuring
+      </item>
+      <item>
+        electrical wiring
       </item>
       <item>
         semi- and final assembly
@@ -243,10 +262,11 @@
       </item>
       <item date="11 Apr 2016">
         Meet us at Hannover Messe Subcontracting fair in Hannover,
-        Germany 25&#x2013;29 April 2016.
+        Germany 25&endash;29 April 2016.
       </item>
       <item date="19 Jan 2016">
-        From 2016 we are ISO&#160;14001 and OHSAS&#160;18001 certified.
+        From 2016 we are ISO&space;14001 and OHSAS&space;18001
+        certified.
       </item>
       <item date="17 Nov 2015">
         New promotional video released.
@@ -255,6 +275,11 @@
         SFM @ Elmia Subcontracting show.
       </item>
     </news>
+    <p>
+      For more updates, <a
+      href="https://www.facebook.com/sfm.lv">follow our Facebook
+      page</a>.
+    </p>
   </section>
 
   <section id="contact">
@@ -310,6 +335,25 @@
         <field>
           <name>Account</name>
           <number>LV40PARX0013976460001</number>
+        </field>
+      </section>
+
+      <section>
+        <field>
+          <name>Social</name>
+          <value>
+            <a href="https://www.facebook.com/sfm.lv">
+              facebook.com/sfm.lv
+            </a>
+          </value>
+        </field>
+        <field>
+          <name>Uploads</name>
+          <value>
+            <a href="https://www.wetransfer.com">
+              WeTransfer
+            </a>
+          </value>
         </field>
       </section>
     </contact-details>
@@ -589,6 +633,7 @@
       </person>
     </subsection>
   </section>
+
   <footer>
     Videos by <a href="#">Porta Bonanza</a>.
     Website by <a href="#">Restless</a>.

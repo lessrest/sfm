@@ -50,10 +50,47 @@ h1 { font-weight: 700; }
 abbr { font-size: 75%; }
 
 dt {
-  color: red;
+  color: white;
   font-weight: 500;
 }
 
+/*
+ * Colors and backgrounds
+ */
+
+header .logo h1 {
+  background-color: rgba(230, 0, 0, 1);
+}
+
+.fade {
+  opacity: 0.3;
+  background-color: black;
+  background-image: url("squairy.png");
+}
+
+nav {
+  background-color: rgba(230, 0, 0, 1);
+  color: white;
+}
+
+footer {
+  background-color: white;
+  color: #222;
+}
+
+section:nth-child(odd) {
+  background-color: rgba(60, 80, 180, 0.85);
+}
+
+section:nth-child(even):not(.teaser) {
+  background-color: rgba(255, 255, 255, 1);
+  background: url(redox_01.png);
+  color: #222;
+}
+
+section:nth-child(even):not(.teaser) h2 {
+  color: #333;
+}
 
 /*
  * Header and logo
@@ -120,10 +157,6 @@ section {
   width: 100%;
 }
 
-section:nth-child(odd) {
-  background-color: rgba(50, 0, 0, 0.5);
-}
-
 aside {
   cursor: pointer;
 }
@@ -135,17 +168,6 @@ aside .summary {
 
 body:not(.js) aside .summary {
   display: none;
-}
-
-section:nth-child(even):not(.teaser) {
-  background-color: rgba(255, 255, 255, 1);
-  background: url(redox_01.png);
-  color: #222;
-  /* opacity: .95; */
-}
-
-section:nth-child(even):not(.teaser) h2 {
-  color: #333;
 }
 
 p {
@@ -188,10 +210,6 @@ nav {
   display: flex;
   align-items: center;
   width: 100%;
-  background-color: rgba(230, 0, 0, 1);
-  color: white;
-  /* background-color: white; */
-  /* color: black; */
   transition: 0.5s ease all;
   z-index: 1;
 }
@@ -313,7 +331,6 @@ ul.wrap li {
 ul.wrap li:before {
   content: '•';
   padding: 0 .25em 0 .5em;
-  color: red;
 }
 
 aside {
@@ -460,11 +477,6 @@ video { transform: translateX(-50%) translateY(-50%); }
 
 .fade { position: fixed; top: 0; left: 0; bottom: 0; right: 0; }
 .fade { z-index: -1; }
-.fade {
-  opacity: 0.3;
-  background-color: black;
-  background-image: url("squairy.png");
-}
 
 /*
  * Responsive font size
@@ -525,7 +537,7 @@ header .arrow a {
 }
 
 .gallery img, .lightbox .list img {
-  -webkit-filter: grayscale(100%) contrast(150%);
+  -webkit-filter: grayscale(25%);
   border-radius: 8px;
   margin: 4px;
   transition: .5s ease all;
@@ -588,14 +600,8 @@ header .arrow a {
   }
 }
 
-
-
 footer {
-  background-color: rgba(100, 38, 38, 0.7);
-  background-color: rgba(255, 255, 255, 0.85);
-  background-color: white;
   border-top: 1px solid #999;
-  color: #222;
   width: 100%;
   text-align: center;
   padding: .5rem 1rem;
@@ -685,4 +691,8 @@ footer a {
 
 .lightbox .zoomed .photo {
   padding-top: 25px;
+}
+
+.news {
+  margin-bottom: 2rem;
 }
