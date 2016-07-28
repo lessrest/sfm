@@ -495,7 +495,6 @@ video, img.frame {
 }
 
 img.frame {
-  animation: slidezoom 10s linear infinite;
   transition: 3s ease all;
   opacity: 0;
 }
@@ -510,6 +509,10 @@ body.mobile img.frame {
 
 img.frame.active {
   opacity: 1;
+}
+
+img.frame.active, img.frame.semiactive {
+  animation: slidezoom 10s linear infinite;
 }
 
 .fade { position: fixed; top: 0; left: 0; bottom: 0; right: 0; }

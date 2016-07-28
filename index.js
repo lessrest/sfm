@@ -21,13 +21,6 @@ selectAll("aside").forEach(function(aside) {
   }
 })
 
-selectAll("video").forEach(function(element) {
-  var src = element.dataset["src"]
-  var player = dashjs.MediaPlayer().create()
-  player.setFastSwitchEnabled()
-  player.initialize(element, src, true)
-})
-
 if (window.innerWidth < 600) {
   document.body.classList.add("mobile")
 
@@ -37,8 +30,22 @@ if (window.innerWidth < 600) {
   frames[0].classList.add("active")
 
   setInterval(function() {
+    var previous = document.querySelector("img.frame.semiactive")
+    if (previous)
+      previous.classList.remove("semiactive")
+
     frames[frameIndex].classList.remove("active")
+    frames[frameIndex].classList.add("semiactive")
+
     frameIndex = (frameIndex + 1) % frames.length
     frames[frameIndex].classList.add("active")
   }, 5000)
+
+} else {
+  selectAll("video").forEach(function(element) {
+    var src = element.dataset["src"]
+    var player = dashjs.MediaPlayer().create()
+    player.setFastSwitchEnabled()
+    player.initialize(element, src, true)
+  })
 }
