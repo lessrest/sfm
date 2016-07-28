@@ -207,22 +207,25 @@ main {
  */
 
 nav {
-  display: flex;
+  display: none;
   align-items: center;
   width: 100%;
   transition: 0.5s ease all;
   z-index: 1;
-}
-
-body.js:not(.scrolled) nav {
-  opacity: 0;
-}
-
-body nav {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
+}
+
+@media (min-width: 600px) {
+  nav {
+    display: flex;
+  }
+}
+
+body.js:not(.scrolled) nav {
+  opacity: 0;
 }
 
 nav ul {
