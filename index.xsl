@@ -67,6 +67,11 @@
 
   <xsl:template match="video-background" mode="background">
     <video data-src="{@src}" autoplay="true" loop="true"/>
+    <xsl:apply-templates select="frame"/>
+  </xsl:template>
+
+  <xsl:template match="video-background/frame">
+    <img src="{@src}" style="display: none" class="frame"/>
   </xsl:template>
 
   <xsl:template match="video-background">

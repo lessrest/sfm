@@ -12,7 +12,21 @@
   </title>
 
   <video-background
-      src="https://s3-eu-west-1.amazonaws.com/restless-videos/output/all-loops-2/all-loops-2.mpd"/>
+      src="https://s3-eu-west-1.amazonaws.com/restless-videos/output/all-loops-2/all-loops-2.mpd">
+    <frame src="frames/frame-12.jpg"/>
+    <frame src="frames/frame-13.jpg"/>
+    <frame src="frames/frame-1.jpg"/>
+    <frame src="frames/frame-2.jpg"/>
+    <frame src="frames/frame-3.jpg"/>
+    <frame src="frames/frame-4.jpg"/>
+    <frame src="frames/frame-5.jpg"/>
+    <frame src="frames/frame-6.jpg"/>
+    <frame src="frames/frame-7.jpg"/>
+    <frame src="frames/frame-8.jpg"/>
+    <frame src="frames/frame-9.jpg"/>
+    <frame src="frames/frame-10.jpg"/>
+    <frame src="frames/frame-11.jpg"/>
+  </video-background>
 
   <logo>
     <brand>

@@ -27,3 +27,16 @@ selectAll("video").forEach(function(element) {
   player.setFastSwitchEnabled()
   player.initialize(element, src, true)
 })
+
+if (window.innerWidth < 600) {
+  var frames = selectAll("img.frame")
+  var frameIndex = 0
+
+  frames[0].classList.add("active")
+
+  setInterval(function() {
+    frames[frameIndex].classList.remove("active")
+    frameIndex = (frameIndex + 1) % frames.length
+    frames[frameIndex].classList.add("active")
+  }, 5000)
+}

@@ -469,11 +469,45 @@ td {
  * Video background
  */
 
-video { position: fixed; top: 50%; left: 50%; }
-video { min-width: 100%; min-height: 100%; }
-video { width: auto; height: auto; }
-video { z-index: -2; }
-video { transform: translateX(-50%) translateY(-50%); }
+video, img.frame {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -2;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+@media (min-width: 600px) {
+  video {
+    display: block;
+  }
+}
+
+@media (max-width: 600px) {
+  img.frame {
+    display: block;
+  }
+}
+
+img.frame {
+  animation: slidezoom 10s linear infinite;
+  transition: 1s ease all;
+  opacity: 0;
+}
+
+img.frame:nth-child(odd) {
+  animation-name: slidezoom-reverse;
+}
+
+img.frame.active {
+  display: block !important;
+  opacity: 1;
+}
 
 .fade { position: fixed; top: 0; left: 0; bottom: 0; right: 0; }
 .fade { z-index: -1; }
@@ -518,6 +552,25 @@ header .arrow a {
   }
 }
 
+@keyframes slidezoom {
+  0% {
+    transform: translateX(-20%) translateY(-50%) scale(1);
+  }
+
+  100% {
+    transform: translateX(-40%) translateY(-50%) scale(1.2);
+  }
+}
+
+@keyframes slidezoom-reverse {
+  0% {
+    transform: translateX(-40%) translateY(-50%) scale(1.2);
+  }
+
+  100% {
+    transform: translateX(-20%) translateY(-50%) scale(1);
+  }
+}
 
 .card h3 {
   text-align: left;
