@@ -29,6 +29,8 @@ selectAll("video").forEach(function(element) {
 })
 
 if (window.innerWidth < 600) {
+  document.body.classList.add("mobile")
+
   var frames = selectAll("img.frame")
   var frameIndex = 0
 

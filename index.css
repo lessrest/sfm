@@ -496,7 +496,7 @@ video, img.frame {
 
 img.frame {
   animation: slidezoom 10s linear infinite;
-  transition: 1s ease all;
+  transition: 3s ease all;
   opacity: 0;
 }
 
@@ -504,8 +504,11 @@ img.frame:nth-child(odd) {
   animation-name: slidezoom-reverse;
 }
 
-img.frame.active {
+body.mobile img.frame {
   display: block !important;
+}
+
+img.frame.active {
   opacity: 1;
 }
 
