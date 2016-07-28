@@ -187,7 +187,7 @@ dd:last-child {
   margin-bottom: 0;
 }
 
-section:not(.teaser) {
+main {
   border-top: .5rem solid white;
 }
 
@@ -330,7 +330,7 @@ ul.wrap li {
 
 ul.wrap li:before {
   content: '•';
-  padding: 0 .25em 0 .5em;
+  padding: 0 .5em;
 }
 
 aside {
